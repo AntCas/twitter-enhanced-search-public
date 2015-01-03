@@ -1,0 +1,60 @@
+
+body {
+    background: none repeat scroll 0 0 #030033;
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 400;
+}
+
+#wrapper {
+    background-color: #0084b4;
+    border-radius: 15px;
+    color: white;
+    display: block;
+    height: 100%;
+    margin: 3% auto;
+    width: 90%;
+}
+
+#header {
+    background-color: #55acee;
+    border-radius: 15px 15px 0 0;
+    font-weight: 700;
+    text-align: center;
+}
+
+#content {
+    padding: 10px 10px 5px;
+    text-align: center;
+}
+
+#search {
+    float: left;
+    font-size: 1.5em;
+    margin: auto;
+    padding: 7px;
+    text-align: left;
+    vertical-align: top;
+    width: 250px;
+}
+
+#map {
+    height: 800px;
+    margin: 3px;
+    overflow: auto;
+}
+
+#map-canvas {
+    height: 786px;
+    min-width: 250px;
+}
+
+#stream {
+    float: right;
+    height: 780px;
+    margin-bottom: 5px;
+    min-width: 250px;
+    overflow: scroll;
+    padding: 3px;
+    text-align: center;
+    width: 30%;
+}
