@@ -18,6 +18,7 @@ Twitter Streaming Search API Wrapper
 This is a web application that will wrap the Twitter API.
 
 Features which will be available:
+
 	- Search Criteria
 		+ include
 		+ exclude
