@@ -15,9 +15,13 @@ indicated in app.py and template/index.html respectively
 Twitter Streaming Search API Wrapper
 ====================================
 
-This is a web application that will wrap the Twitter API.
+This is a web application made with Flask that wraps the Twitter Search API.
+It can support a total of 180 api requests to Twitter per 15 minute window.
 
-Features which will be available:
+If this ever gets traffic (or just for kicks) then twitter supports per-user
+authorization which can be implemented by redirecting the user to Twitter to sign in.
+
+Features
 
 	- Search Criteria
 		+ include
@@ -25,8 +29,8 @@ Features which will be available:
 		+ @mentions
 		+ #hashtags
 
-	- Streaming Tweets: All Tweets returned by API in a streaming output
+	- Tweets: Up to 100 tweets matching search displayed at a time
 
-	- Map: All Tweets plotted on map for a certain period of time
+	- Map: All Tweets with location data get plotted on a Google Map
 
 
